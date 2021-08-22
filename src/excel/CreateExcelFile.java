@@ -8,7 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class CreateExcel {
+public class CreateExcelFile {
 	
 	
 	
@@ -52,9 +52,6 @@ public class CreateExcel {
 	        	}
 	        }
 	        
-	        
-		    
-		    
 		    
 	        try {
 	            FileOutputStream fileoutputstream = new FileOutputStream("C:\\Users\\KSJ\\Desktop\\만든엑셀.xlsx");
